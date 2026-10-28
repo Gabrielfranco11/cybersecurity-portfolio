@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#07111f" />
+  <meta name="description" content="Cybersecurity portfolio showcasing hands-on labs, security tools, and learning projects." />
+  <title>Gabriel Franco Rita | Cybersecurity Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#07111f;--panel:#0d1b2c;--panel2:#102238;--text:#edf5ff;--muted:#9eb0c5;--line:#20364d;--green:#72f1b8;--blue:#79b8ff;--radius:20px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 80% 0%,#123052 0,transparent 34%),var(--bg);color:var(--text);font-family:Manrope,system-ui,sans-serif;line-height:1.65}a{color:inherit;text-decoration:none}.wrap{width:min(1100px,calc(100% - 40px));margin:auto}.mono{font-family:'DM Mono',monospace;color:var(--green);font-size:.83rem;letter-spacing:.04em}.nav{display:flex;justify-content:space-between;align-items:center;padding:24px 0;border-bottom:1px solid var(--line)}.brand{font-weight:800;letter-spacing:-.04em;font-size:1.05rem}.brand span{color:var(--green)}.navlinks{display:flex;gap:24px;color:var(--muted);font-size:.9rem}.navlinks a:hover{color:var(--green)}.hero{padding:100px 0 82px;display:grid;grid-template-columns:1.4fr .8fr;gap:50px;align-items:center}.eyebrow{display:flex;align-items:center;gap:10px;margin-bottom:20px}.dot{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 14px #72f1b8}.hero h1{font-size:clamp(2.8rem,7vw,5.4rem);line-height:1.02;letter-spacing:-.075em;margin:0 0 24px}.hero h1 em{font-style:normal;color:var(--green)}.hero p{color:var(--muted);font-size:1.08rem;max-width:610px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 18px;border-radius:10px;font-weight:800;font-size:.9rem;border:1px solid var(--line);transition:.2s}.btn.primary{background:var(--green);color:#06121a;border-color:var(--green)}.btn:hover{transform:translateY(-2px)}.terminal{background:#081522;border:1px solid #24435d;border-radius:var(--radius);padding:22px;box-shadow:0 24px 70px #0004;transform:rotate(1deg)}.terminal-top{display:flex;gap:7px;padding-bottom:18px;border-bottom:1px solid var(--line);margin-bottom:18px}.terminal-top i{width:9px;height:9px;border-radius:50%;background:#39516b}.terminal-top i:first-child{background:#ff7979}.terminal-top i:nth-child(2){background:#ffd166}.terminal-top i:nth-child(3){background:var(--green)}.terminal pre{white-space:pre-wrap;margin:0;font: .86rem/2 'DM Mono',monospace;color:#c4d4e5}.terminal .g{color:var(--green)}.terminal .b{color:var(--blue)}section{padding:62px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:26px}.section-head h2{font-size:clamp(1.8rem,4vw,2.7rem);letter-spacing:-.06em;margin:6px 0 0}.section-head p{max-width:420px;color:var(--muted);margin:0}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:linear-gradient(145deg,var(--panel),#0a1726);border:1px solid var(--line);border-radius:var(--radius);padding:24px;min-height:230px;transition:.2s}.card:hover{border-color:#477a8d;transform:translateY(-3px)}.card-icon{width:42px;height:42px;display:grid;place-items:center;border-radius:12px;background:#17334a;color:var(--green);font-size:1.25rem;margin-bottom:22px}.card h3{margin:0 0 10px;font-size:1.08rem}.card p{margin:0;color:var(--muted);font-size:.94rem}.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}.tag{font: .72rem 'DM Mono',monospace;border:1px solid #29465f;border-radius:7px;padding:5px 8px;color:#c0d6e9}.about-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:32px}.about-panel{padding:28px;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius)}.about-panel h3{margin-top:0}.about-panel p{color:var(--muted)}.skills{display:flex;flex-wrap:wrap;gap:10px}.skill{border:1px solid var(--line);background:#0b1929;padding:10px 13px;border-radius:10px;font-size:.88rem}.timeline{border-left:1px solid #31516b;padding-left:24px;display:grid;gap:22px}.timeline-item{position:relative}.timeline-item:before{content:'';position:absolute;left:-30px;top:8px;width:10px;height:10px;border-radius:50%;background:var(--green);box-shadow:0 0 0 5px #123047}.timeline-item h3{margin:0 0 4px}.timeline-item p{margin:0;color:var(--muted)}.contact{background:linear-gradient(130deg,#102b3c,#0b1928);border:1px solid var(--line);border-radius:26px;padding:42px;display:flex;align-items:center;justify-content:space-between;gap:30px}.contact h2{font-size:clamp(1.8rem,4vw,2.7rem);letter-spacing:-.06em;margin:6px 0}.contact p{color:var(--muted);margin-bottom:0}.footer{display:flex;justify-content:space-between;gap:20px;color:var(--muted);font-size:.82rem;padding:28px 0 36px;margin-top:60px;border-top:1px solid var(--line)}
+    @media(max-width:800px){.hero{grid-template-columns:1fr;padding:70px 0 50px}.terminal{max-width:540px;transform:none}.cards{grid-template-columns:1fr 1fr}.about-grid{grid-template-columns:1fr}.section-head{display:block}.section-head p{margin-top:12px}.contact{align-items:flex-start;flex-direction:column}}
+    @media(max-width:540px){.wrap{width:min(100% - 28px,1100px)}.nav{align-items:flex-start}.navlinks{gap:12px;font-size:.78rem;flex-wrap:wrap;justify-content:flex-end}.cards{grid-template-columns:1fr}.hero h1{font-size:3.25rem}.contact{padding:28px}.footer{flex-direction:column}}
+  </style>
+</head>
+<body>
+  <header class="wrap nav">
+    <a class="brand" href="#home">GABRIEL<span>.</span></a>
+    <nav class="navlinks" aria-label="Main navigation"><a href="#projects">Projects</a><a href="#certificates">Certificates</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#contact">Contact</a></nav>
+  </header>
+  <main>
+    <div class="wrap hero" id="home">
+      <div>
+        <div class="eyebrow mono"><span class="dot"></span> CYBERSECURITY PORTFOLIO</div>
+        <h1>Curious mind.<br><em>Secure systems.</em></h1>
+        <p>Hi, I'm <strong>Gabriel Franco Rita</strong> — an aspiring cybersecurity professional building practical skills through security labs, threat awareness, and hands-on technical projects.</p>
+        <div class="actions"><a class="btn primary" href="#projects">Explore my projects ↘</a><a class="btn" href="#contact">Get in touch</a></div>
+      </div>
+      <div class="terminal" aria-label="Decorative terminal panel"><div class="terminal-top"><i></i><i></i><i></i></div><pre><span class="g">$ whoami</span>
+aspiring_security_professional
+
+<span class="g">$ focus --areas</span>
+<span class="b">[+] </span>Security labs
+<span class="b">[+] </span>Threat awareness
+<span class="b">[+] </span>Network defense
+
+<span class="g">$ status</span>
+Learning. Building. Improving. <span class="g">▌</span></pre></div>
+    </div>
+    <section class="wrap" id="projects">
+      <div class="section-head"><div><div class="mono">01 / SELECTED WORK</div><h2>Projects & Labs</h2></div><p>Hands-on cybersecurity labs documented with reports and evidence. Open a report to review the activity, methodology, and observations.</p></div>
+      <div class="cards">
+        <article class="card"><div class="card-icon">⌘</div><h3>Windows-to-Kali Cowrie Honeypot</h3><p>Connected a Windows host to a Cowrie SSH honeypot running on Kali Linux in VirtualBox. Verified TCP port 2222 connectivity and reviewed recorded SSH and shell activity.</p><div class="tags"><span class="tag">Kali Linux</span><span class="tag">Cowrie</span><span class="tag">VirtualBox</span></div><div class="actions"><a class="btn primary" href="assets/Cowrie_Honeypot_Windows_to_Kali_Lab_Report.pdf" target="_blank" rel="noopener">View report ↗</a><a class="btn" href="assets/Cowrie_Honeypot_Windows_to_Kali_Lab_Report.docx" download>DOCX</a></div></article>
+        <article class="card"><div class="card-icon">✉</div><h3>GoPhish Installation Lab</h3><p>Installed GoPhish v0.12.1 on Kali Linux, launched the local admin interface, set an administrator password, and confirmed the dashboard login. Intended for authorized awareness training.</p><div class="tags"><span class="tag">GoPhish</span><span class="tag">Kali Linux</span><span class="tag">Awareness</span></div><div class="actions"><a class="btn primary" href="assets/GoPhish_Installation_Guide_Kali_Linux.pdf" target="_blank" rel="noopener">View report ↗</a><a class="btn" href="assets/GoPhish_Installation_Guide_Kali_Linux.docx" download>DOCX</a></div></article>
+        <article class="card"><div class="card-icon">⌁</div><h3>OWASP Juice Shop Discovery</h3><p>Used Gobuster with a SecLists web-content wordlist against a local OWASP Juice Shop training target. Reviewed discovered paths and HTTP responses, emphasizing manual validation.</p><div class="tags"><span class="tag">OWASP Juice Shop</span><span class="tag">Gobuster</span><span class="tag">SecLists</span></div><div class="actions"><a class="btn primary" href="assets/OWASP_Juice_Shop_Web_Content_Discovery_Lab.pdf" target="_blank" rel="noopener">View report ↗</a><a class="btn" href="assets/OWASP_Juice_Shop_Web_Content_Discovery_Lab.docx" download>DOCX</a></div></article>
+        <article class="card"><div class="card-icon">◉</div><h3>Wireshark Threat Monitoring</h3><p>Practiced packet inspection, baseline traffic analysis, protocol filtering, and identifying unusual activity as part of a structured cyber threat monitoring worksheet.</p><div class="tags"><span class="tag">Wireshark</span><span class="tag">Packet analysis</span><span class="tag">Threat monitoring</span></div><div class="actions"><a class="btn primary" href="assets/Wireshark_Cyber_Threat_Monitoring_Lab.pdf" target="_blank" rel="noopener">View worksheet ↗</a><a class="btn" href="assets/Wireshark_Cyber_Threat_Monitoring_Lab.docx" download>DOCX</a></div></article>
+      </div>
+    </section>
+    <section class="wrap" id="certificates">
+      <div class="section-head"><div><div class="mono">02 / TRAINING & CERTIFICATES</div><h2>Courses completed</h2></div><p>Fortinet Training Institute course completion certificates.</p></div>
+      <div class="cards">
+        <article class="card"><div class="card-icon">✦</div><h3>FortiGate 7.6 Operator Self-Paced</h3><p>Fortinet Training Institute · Completed October 28, 2026.</p><div class="actions"><a class="btn primary" href="assets/FortiGate_7.6_Operator_Certificate.pdf" target="_blank" rel="noopener">View certificate ↗</a><a class="btn" href="assets/FortiGate_7.6_Operator_Certificate.pdf" download>Download</a></div></article>
+        <article class="card"><div class="card-icon">✦</div><h3>Introduction to Next Generation Firewall 1.0</h3><p>Fortinet Training Institute · Completed October 27, 2026.</p><div class="actions"><a class="btn primary" href="assets/Introduction_to_Next_Generation_Firewall_Certificate.pdf" target="_blank" rel="noopener">View certificate ↗</a><a class="btn" href="assets/Introduction_to_Next_Generation_Firewall_Certificate.pdf" download>Download</a></div></article>
+        <article class="card"><div class="card-icon">✦</div><h3>Cybersecurity and Cloud Fundamentals 1.0</h3><p>Fortinet Training Institute · Completed October 27, 2026.</p><div class="actions"><a class="btn primary" href="assets/Cybersecurity_and_Cloud_Fundamentals_Certificate.pdf" target="_blank" rel="noopener">View certificate ↗</a><a class="btn" href="assets/Cybersecurity_and_Cloud_Fundamentals_Certificate.pdf" download>Download</a></div></article>
+      </div>
+    </section>
+    <section class="wrap" id="about">
+      <div class="section-head"><div><div class="mono">03 / ABOUT ME</div><h2>Learning by doing.</h2></div></div>
+      <div class="about-grid"><div class="about-panel"><h3>My approach</h3><p>I enjoy exploring how systems work, practicing in safe lab environments, and turning each activity into clear documentation. My goal is to keep building practical skills and a responsible security mindset.</p><p class="mono">CURRENTLY: BUILDING MY SKILLS</p></div><div class="about-panel" id="skills"><h3>Tools & areas of interest</h3><div class="skills"><span class="skill">Kali Linux</span><span class="skill">Windows</span><span class="skill">GoPhish</span><span class="skill">Cowrie</span><span class="skill">Networking</span><span class="skill">Threat awareness</span><span class="skill">Lab documentation</span><span class="skill">Web deployment</span><span class="skill">Wireshark</span><span class="skill">Gobuster</span><span class="skill">SecLists</span><span class="skill">FortiGate fundamentals</span></div></div></div>
+    </section>
+    <section class="wrap">
+      <div class="section-head"><div><div class="mono">04 / MY PROCESS</div><h2>How I work</h2></div></div>
+      <div class="timeline"><div class="timeline-item"><h3>Plan the lab</h3><p>Define the objective, isolate the environment, and identify what to observe.</p></div><div class="timeline-item"><h3>Configure and test</h3><p>Set up the tools, verify connectivity, and record relevant results.</p></div><div class="timeline-item"><h3>Document and improve</h3><p>Capture evidence, explain what was learned, and note possible improvements.</p></div></div>
+    </section>
+    <section class="wrap" id="contact"><div class="contact"><div><div class="mono">05 / CONTACT</div><h2>Let's connect.</h2><p>Interested in cybersecurity, collaboration, or sharing knowledge? Feel free to reach out.</p></div><a class="btn primary" href="mailto:your.email@example.com">Email me ↗</a></div></section>
+  </main>
+  <footer class="wrap footer"><span>© <span id="year"></span> Gabriel Franco Rita · Cybersecurity Portfolio</span><span>Built with HTML & CSS · Deployed on Vercel</span></footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
